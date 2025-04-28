@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import '../hojas_de_estilos/checkbox.css';
+
 
 const Checkbox = props => {
   // (A)
