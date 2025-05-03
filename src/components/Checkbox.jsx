@@ -16,8 +16,11 @@ const Checkbox = props => {
           className="todo__state"
           name={id}
           type="checkbox"
-          defaultChecked={done}
+          style={{ color: 'red', accentColor: 'green' }}
+         
+                   defaultChecked={done}
           onChange={onChange}
+          
         />
         <div className="todo__text">{description}</div>
       </label>
